@@ -12,15 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar {
-    width: 0.5vw;
-}
-
 /* Main Container */
 
 /* Header NavBar Section */
 header{
-    position: fixed;
     width: 100%;
     transition: 0.5s;
     background: #111;
@@ -30,7 +25,7 @@ header{
     width: 100px;
 }
 
-.small-icon{
+/*.small-icon{
     border: none;
     background-color: transparent;
     margin: 15px;
@@ -39,14 +34,13 @@ header{
 
 .small-icon span{
     position: absolute;
-    top: -9px;
-    left: 25px;
     background-color: red;
+    top: -8px;
+    left: 25px;
 }
 
 .small-icon i{
     color: #fff;
-    font-size: 18px;
 }
 
 .small-icon i:hover{
@@ -58,10 +52,74 @@ header{
     color: #fff;
 }
 
-.nav-link{
+.main-menu .nav-link{
     color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav-link:hover{
     color: #fff;
+}
+
+
+.home-page{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+.carousel-control-prev-icon{
+    color: #111;
+}
+
+.carousel{
+    height: 500px;
+    padding: 50px;
+    border-radius: 5px;
+    color: #111;
+}*/
+
+.nav-icon{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    background: transparent;
+}
+
+.nav-icon i{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.nav-icon i:hover{
+    color: grey;
+}
+
+.search-bar{
+    display: flex;
+    position: relative;
+}
+
+.search-bar i{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    color: #111;
+}
+
+.search-box{
+    border: none;
+    border-radius: 5px;
+    padding: 7px 35px;
+}
+
+.search-box:focus{
+    box-shadow: 0px 0px 8px 0px #fff;
+}
+
+.search-box:hover{
+    box-shadow: 0px 0px 8px 0px #fff;
 }
