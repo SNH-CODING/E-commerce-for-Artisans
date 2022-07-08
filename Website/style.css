@@ -16,10 +16,11 @@ html::-webkit-scrollbar {
     width: 0.5vw;
 }
 
+/* Main Container */
+
 /* Header NavBar Section */
 header{
     position: fixed;
     width: 100%;
-    display: flex;
     transition: 0.5s;
 }

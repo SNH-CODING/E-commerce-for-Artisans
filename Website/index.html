@@ -32,17 +32,20 @@
     
   </head>
   <body>
-    <!-- Main Container -->
-    <div class="container-fluid">
-
-        <header>
-            <nav class="navbar navbar-expand-lg">
-
+    <!-- Header NavBar Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
                 <!-- Website Logo -->
-                <a href="" class="nav-brand"><img src="../Assets/AppLogo.png" alt="E-commerce for Artisans"></a>
+                <a href="" class="navbar-brand"><img src="../Assets/AppLogo.png" alt="E-commerce for Artisans" width="150px"></a>
+
+                <!-- Responsive Menu Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
 
                 <!-- Website Menu -->
-                <div>
+                <div class="collapse navbar-collapse" id="navbarToggle">
                     <ul class="navbar-nav ml-auto">
                         <a href="" class="nav-item">
                             <a class="nav-link" href="">Home</a>
@@ -55,11 +58,10 @@
                         </a>
                     </ul>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
-
-    </div>
 
 
     <!-- Script -->
