@@ -23,25 +23,19 @@ header{
     position: fixed;
     width: 100%;
     transition: 0.5s;
+    background-color: #D8D8D8;
 }
 
-.navbar img{
-    width: 90px;
+.navbar-brand img{
+    width: 100px;
 }
 
-.menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.nav-link i{
     color: #111;
-}
-
-.menu i{
+    font-size: 20px;
     margin: 5px;
-    font-size: 18px;
 }
 
-.menu:hover{
-    color: royalblue;
+.nav-link i:hover{
+    color: dodgerblue;
 }
