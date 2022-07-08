@@ -24,3 +24,24 @@ header{
     width: 100%;
     transition: 0.5s;
 }
+
+.navbar img{
+    width: 90px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+}
+
+.menu i{
+    margin: 5px;
+    font-size: 18px;
+}
+
+.menu:hover{
+    color: royalblue;
+}

@@ -18,11 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Bootstrap 5 CDN Links-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
     <!-- External Links -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/d992fda3da.js" crossorigin="anonymous"></script>
@@ -37,24 +34,29 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- Website Logo -->
-                <a href="" class="navbar-brand"><img src="../Assets/AppLogo.png" alt="E-commerce for Artisans" width="150px"></a>
+                <a href="" class="navbar-brand"><img src="../Assets/AppLogo.png" alt="E-commerce for Artisans"></a>
 
                 <!-- Responsive Menu Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                 </button>
 
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" class="" placeholder="Search..">
+                </div>
+
                 <!-- Website Menu -->
-                <div class="collapse navbar-collapse" id="navbarToggle">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
                         <a href="" class="nav-item">
-                            <a class="nav-link" href="">Home</a>
+                            <a class="nav-link" href=""><span class="menu"><i class="fa-solid fa-house"></i>Home</span></a>
                         </a>
                         <a href="" class="nav-item">
-                            <a class="nav-link" href="">Home</a>
+                            <a class="nav-link" href=""><span class="menu"><i class="fa-solid fa-cart-shopping"></i>Cart</span></a>
                         </a>
                         <a href="" class="nav-item">
-                            <a class="nav-link" href="">Home</a>
+                            <a class="nav-link" href=""><span class="menu"><i class="fa-solid fa-user"></i>Login</span></a>
                         </a>
                     </ul>
                 </div>
@@ -65,7 +67,11 @@
 
 
     <!-- Script -->
-
+    <!-- Bootstrap 5 Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
     <!-- Script for AOS Library -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
