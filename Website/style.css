@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Scroll Section */
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+/* Header NavBar Section */
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
+}
