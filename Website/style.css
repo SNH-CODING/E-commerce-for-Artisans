@@ -23,19 +23,45 @@ header{
     position: fixed;
     width: 100%;
     transition: 0.5s;
-    background-color: #D8D8D8;
+    background: #111;
 }
 
 .navbar-brand img{
     width: 100px;
 }
 
-.nav-link i{
-    color: #111;
-    font-size: 20px;
-    margin: 5px;
+.small-icon{
+    border: none;
+    background-color: transparent;
+    margin: 15px;
+    position: relative;
 }
 
-.nav-link i:hover{
-    color: dodgerblue;
+.small-icon span{
+    position: absolute;
+    top: -9px;
+    left: 25px;
+    background-color: red;
+}
+
+.small-icon i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.small-icon i:hover{
+    color: #D8D8D8;
+}
+
+.badge{
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #fff;
 }

@@ -17,9 +17,9 @@
     <!-- CSS External Style -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-    <!-- Bootstrap 5 CDN Links-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    
+    <!-- Bootstrap 4 CDN Links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+
     <!-- External Links -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/d992fda3da.js" crossorigin="anonymous"></script>
@@ -32,36 +32,60 @@
     <!-- Header NavBar Section -->
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <!-- Website Logo -->
-                <a href="" class="navbar-brand"><img src="../Assets/AppLogo.png" alt="E-commerce for Artisans"></a>
-
-                <!-- Responsive Menu Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+            <div class="container-fluid">
+                <!-- Webiste Logo -->
+                <a href="" class="navbar-brand"><img src="../Assets/AppLogoDark.png" alt=""></a>
                 
-                <!-- Website Menu -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <a href="" class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </a>
-                        <a href="" class="nav-item">
-                            <a class="nav-link" href="">Shop</a>
-                        </a>
-                    </ul>
+                <!-- Responsive Menu Button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+                    <i class="fa-solid fa-bars-staggered menu-btn"></i>
+                </button>
 
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <a href="" class="nav-item">
-                            <a class="nav-link" href=""><i class="fa-solid fa-heart"></i></a>
-                        </a>
-                        <a href="" class="nav-item">
-                            <a class="nav-link" href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                        </a>
-                        <a href="" class="nav-item">
-                            <a class="nav-link" href=""><i class="fa-solid fa-user"></i></a>
-                        </a>
+                <!-- Menu Section -->
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="">Punjabi Phulkari Dupatta</a>
+                                <a class="dropdown-item" href="">Office Accessories</a>
+                                <a class="dropdown-item" href="">Fashion Bags</a>
+                                <a class="dropdown-item" href="">Kitchen Ware</a>
+                                <a class="dropdown-item" href="">Home Decor</a>
+                                <a class="dropdown-item" href="">Planters / Storage Bag</a>
+                                <a class="dropdown-item" href="">Pattachita Painting</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Blog</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link small-icon">
+                                <i class="fa-solid fa-heart"></i>
+                                <span class="badge">0</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link small-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge">0</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link small-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -71,11 +95,11 @@
 
 
     <!-- Script -->
-    <!-- Bootstrap 5 Script CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    
+    <!-- Bootstrap 4 Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Script for AOS Library -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
