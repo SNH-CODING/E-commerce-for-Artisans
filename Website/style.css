@@ -12,73 +12,18 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Main Container */
-
 /* Header NavBar Section */
 header{
     width: 100%;
+    height: auto;
     transition: 0.5s;
     background: #111;
+    padding: 10px;
 }
 
 .navbar-brand img{
     width: 100px;
 }
-
-/*.small-icon{
-    border: none;
-    background-color: transparent;
-    margin: 15px;
-    position: relative;
-}
-
-.small-icon span{
-    position: absolute;
-    background-color: red;
-    top: -8px;
-    left: 25px;
-}
-
-.small-icon i{
-    color: #fff;
-}
-
-.small-icon i:hover{
-    color: #D8D8D8;
-}
-
-.badge{
-    background-color: dodgerblue;
-    color: #fff;
-}
-
-.main-menu .nav-link{
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.nav-link:hover{
-    color: #fff;
-}
-
-
-.home-page{
-    width: 100%;
-    height: auto;
-    padding: 15px;
-}
-
-.carousel-control-prev-icon{
-    color: #111;
-}
-
-.carousel{
-    height: 500px;
-    padding: 50px;
-    border-radius: 5px;
-    color: #111;
-}*/
 
 .nav-icon{
     position: relative;
@@ -122,4 +67,21 @@ header{
 
 .search-box:hover{
     box-shadow: 0px 0px 8px 0px #fff;
+}
+
+/* Home Page Section */
+.home-page{
+    width: 100%;
+}
+
+.carousel{
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px 0px #111;
+}
+
+.banner-1,
+.banner-2,
+.banner-3{
+    
 }
